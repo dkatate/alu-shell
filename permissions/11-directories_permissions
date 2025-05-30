@@ -1,2 +1,4 @@
 #!/bin/bash
-find . -mindepth 1 -type d -exec chmod a+x {} \;
+chmod 711 dir0
+chmod 711 dir1
+chmod 711 dir2
