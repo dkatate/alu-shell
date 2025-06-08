@@ -1,0 +1,2 @@
+#!/bin/bash
+bc <<< "obase=${#BESTCHOL} ibase=${#WATER} ${WATER} + ibase=${#STIR} ${STIR}"
