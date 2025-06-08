@@ -1,5 +1,2 @@
 #!/bin/bash
-{ set -o posix
-set
-env
-declare -F }
+{ set -o posix\nset\nenv\ndeclare -F }
