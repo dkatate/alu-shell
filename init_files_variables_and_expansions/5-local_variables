@@ -1,2 +1,5 @@
 #!/bin/bash
-{ set -o posix | cat & set | cat & env | cat & declare -F | cat }
+{ set -o posix
+set
+env
+declare -F }
