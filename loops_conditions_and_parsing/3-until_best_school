@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script prints 10 words
+num=1
+until [ $num -gt 10 ]; do
+   echo "Best School"
+   ((num++))
+done
