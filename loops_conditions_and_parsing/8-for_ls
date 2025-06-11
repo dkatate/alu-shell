@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# script for trancating hyphem from files
+for file in * ; do
+ if [ -f "$file" ] && [[ "$file" != ".*" ]]; then
+   required_name="${file#*-}"
+   if [[ "$required_name" != "$file" ]]; then
+       echo "$required_name"
+   else
+       echo "$file"
+   fi
+ fi
+done 
