@@ -5,8 +5,6 @@ for file in * ; do
    required_name="${file#*-}"
    if [[ "$required_name" != "$file" ]]; then
        echo "$required_name"
-   else
-       echo "$file"
    fi
  fi
 done 
