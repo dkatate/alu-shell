@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+# script about file status
 # Define the file we're checking
 file="school"
 
