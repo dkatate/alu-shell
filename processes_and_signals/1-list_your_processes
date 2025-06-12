@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #script about process list
-ps -eo pid,ppid,user,%cpu,%mem,stat,start_time,cmd --forest
+ps -eo user,pid,%cpu,%mem,vsz,rss,tty,stat,start_time,etime,command --forest
 
