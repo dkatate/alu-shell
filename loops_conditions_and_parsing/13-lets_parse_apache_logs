@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+# script about apache
+#!/bin/bash
+
+[ ! -f "apache-access.log" ] && wget https://raw.githubusercontent.com/elastic/examples/master/Common%20Data%20Formats/apache_logs/apache_logs -O apache-access.log
+
+awk '{print $1, $9}' apache-access.log
